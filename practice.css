@@ -39,7 +39,7 @@ body {
 }
 
 img {
-  width: 75vw;
+  width: 15vw;
 }
 .pictures {
   display: inline-block;
@@ -60,7 +60,7 @@ img {
 }
 
 .exterior-3 {
-  width: 200vw;
+  width: 75vw;
   display: block;
 }
 
