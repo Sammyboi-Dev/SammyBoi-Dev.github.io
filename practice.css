@@ -96,3 +96,7 @@ text-align: center;
 .border-tab:hover{
   cursor: pointer;
 }
+.pictures img {
+  width: 100%;
+  height 100%;
+}
