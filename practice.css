@@ -19,7 +19,6 @@ body {
   vertical-align: top;
   position: relative;
   mix-blend-mode: multiply;
-  width: 150vw;
 }
 .border-tab {
   display: inline-block;
@@ -57,7 +56,7 @@ img {
 .container-top {
   background-image: url(House-pictures/Exterior-House-1.jpg);
   background-repeat: no-repeat;
-  background-size: 75vw;
+  background-size: 120vw;
 }
 
 .exterior-3 {
