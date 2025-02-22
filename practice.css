@@ -26,7 +26,7 @@
 .border {
   display: block;
   text-align: center;
-  background-color: silver;
+  background-color: rgb(185, 185, 185);
   border-color: black;
   border-style: solid;
   border-bottom: 0;
@@ -34,7 +34,7 @@
 
 .lower-section {
   text-align: center;
-  background-color: rgb(142, 171, 204);
+  background-color: rgb(117, 102, 82);
   width: 100vw;
 
 }
@@ -60,7 +60,8 @@ font-size: 5vw;
 font-weight: bold;
 border-style: solid;
 padding: 5px 50px;
-background-color: silver;
+background-color: rgb(185, 157, 114);
+border-radius: 50px;
 }
 
 .mission-paragraph, .pricing-paragraph, .pricing {
@@ -69,6 +70,7 @@ background-color: silver;
   padding-right: 30px;
   margin-left: 10px;
   margin-right: 10px;
+  
 }
 
 .mission, .schedule-pricing{
@@ -91,12 +93,12 @@ html {
   scroll-behavior: smooth;
 }
 
-.package-base {
+.package-base, .mission-paragraph {
   border-style: solid;
-  background-color: silver;
+  background-color: rgb(185, 157, 114);
   width: 75%;
   display: inline-block;
-  border-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .twin-pictures, .picture-collage {
@@ -116,4 +118,8 @@ html {
 .interior-5,.interior-6,.interior-2,.exterior-1 {
   float:left;
   width: 25%;
+}
+
+.pricing-paragraph {
+  border-bottom: none;
 }
