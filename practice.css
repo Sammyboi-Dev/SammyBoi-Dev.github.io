@@ -29,11 +29,13 @@
   background-color: silver;
   border-color: black;
   border-style: solid;
+  border-bottom: 0;
 }
 
 .lower-section {
   text-align: center;
   background-color: rgb(142, 171, 204);
+  width: 100vw;
 
 }
 
@@ -41,6 +43,7 @@
   background-image: url(House-pictures/Exterior-House-1.jpg);
   background-repeat: no-repeat;
   background-size: 100vw;
+  width: 100vw;
 }
 
 .exterior-3 {
@@ -48,17 +51,19 @@
   margin-right: 0;
   width: 100%;
   border-bottom: solid;
+  border-top: solid;
 }
 
-.mission-title {
+.mission-title, .pricing-title {
 display: inline-block;
 font-size: 5vw;
 font-weight: bold;
 border-style: solid;
 padding: 5px 50px;
+background-color: silver;
 }
 
-.mission-paragraph {
+.mission-paragraph, .pricing-paragraph, .pricing {
   font-size: 2vw;
   padding-left: 30px;
   padding-right: 30px;
@@ -66,14 +71,10 @@ padding: 5px 50px;
   margin-right: 10px;
 }
 
-.mission {
+.mission, .schedule-pricing{
   display: block;
-  border-left: 0;
-  border-right: 0;
   padding-left: 5px;
   padding-right: 5px;
-  border-style: solid;
-  border-top: none;
   
 }
 
@@ -88,4 +89,31 @@ padding: 5px 50px;
 
 html {
   scroll-behavior: smooth;
+}
+
+.package-base {
+  border-style: solid;
+  background-color: silver;
+  width: 75%;
+  display: inline-block;
+  border-bottom: 0;
+}
+
+.twin-pictures, .picture-collage {
+  border-top: solid;
+}
+
+.picture-collage {
+  width: 100%;
+  display: inline-block;
+  background-color: black;
+}
+
+.interior-4, .interior-3 {
+  width: 50%;
+}
+
+.interior-5,.interior-6,.interior-2,.exterior-1 {
+  float:left;
+  width: 25%;
 }
