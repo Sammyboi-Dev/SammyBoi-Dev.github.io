@@ -81,3 +81,7 @@ padding: 5px 50px;
   width: 50%;
   border-bottom: solid;
 }
+
+html {
+  scroll-behavior: smooth;
+}
