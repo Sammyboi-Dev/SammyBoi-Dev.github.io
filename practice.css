@@ -43,6 +43,7 @@ body {
 
 .pictures {
   display: inline-block;
+  width: 50vw;
 }
 
 .all-pics {
@@ -60,7 +61,7 @@ body {
 }
 
 .exterior-3 {
-  width: 98vw;
+  width: 100vw;
   margin-left: 0;
   margin-right: 0;
   text-align: center;
