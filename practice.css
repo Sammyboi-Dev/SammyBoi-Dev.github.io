@@ -123,3 +123,8 @@ html {
 .pricing-paragraph {
   border-bottom: none;
 }
+
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
