@@ -60,6 +60,10 @@ padding: 5px 50px;
 
 .mission-paragraph {
   font-size: 2vw;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .mission {
