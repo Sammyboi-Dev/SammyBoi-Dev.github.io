@@ -44,7 +44,7 @@ body {
 .pictures {
   display: inline-block;
   vertical-align: top;
-  height: 25vw;
+  height: 15vw;
 }
 .all-pics {
   display: block;
@@ -52,8 +52,7 @@ body {
   background-color: rgb(142, 171, 204);
   border-style: solid;
   border-top: none;
-  width: 50vw;
-  height: 50vw;
+  width: 25vw;
 }
 
 .container-top {
