@@ -64,12 +64,12 @@ img {
 }
 
 .mission-title {
-font-size: 50px;
+font-size: 10vw;
 font-weight: bold;
 }
 
 .mission-paragraph {
-  font-size: 25px;
+  font-size: 5vw;
   text-align: center;
 }
 
