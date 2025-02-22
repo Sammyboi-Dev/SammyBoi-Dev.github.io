@@ -5,12 +5,12 @@ body {
 }
 
 .title {
-  font-size: 50px;
+  font-size: 50vw;
   color: black;
   font-family: Montserrat;
 }
 .logo {
-  width: 200px;
+  width: 200vw;
   display: inline-block;
 }
 
@@ -26,8 +26,8 @@ body {
   margin-left: 5%;
   text-decoration: underline;
   font-family: arial;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 20vw;
+  padding-bottom: 20vw;
 }
 
 .border {
@@ -39,7 +39,7 @@ body {
 }
 
 img {
-  width: 650px;
+  width: 650vw;
 }
 .pictures {
   display: inline-block;
@@ -59,17 +59,17 @@ img {
 }
 
 .exterior-3 {
-  width: 1300px;
+  width: 1300vw;
   display: block;
 }
 
 .mission-title {
-font-size: 50px;
+font-size: 50vw;
 font-weight: bold;
 }
 
 .mission-paragraph {
-  font-size: 25px;
+  font-size: 25vw;
   text-align: center;
 }
 
@@ -77,7 +77,7 @@ font-weight: bold;
   display: block;
   text-align: center;
   border-style: solid;
-  border-width: 5px;
+  border-width: 5pw;
   position: relative;
   padding-left: 200px;
   padding-right: 200px;
