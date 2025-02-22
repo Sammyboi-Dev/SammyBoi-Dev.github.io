@@ -43,8 +43,7 @@ body {
 
 .pictures {
   display: inline-block;
-  vertical-align: top;
-  height: 15vw;
+  width: 15vw;
 }
 .all-pics {
   display: block;
