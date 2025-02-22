@@ -7,12 +7,12 @@ body {
 }
 
 .title {
-  font-size: 5vw;
+  font-size: 8vw;
   color: black;
   font-family: Montserrat;
 }
 .logo {
-  width: 15vw;
+  width: 20vw;
   display: inline-block;
 }
 
@@ -62,7 +62,7 @@ img {
 }
 
 .exterior-3 {
-  width: 95vw;
+  width: 96vw;
   display: block;
   margin-left: 0;
   margin-right: 0;
@@ -86,7 +86,7 @@ font-weight: bold;
   position: relative;
   border-left: 0;
   border-right: 0;
-  width: 88vw;
+  width: 75vw;
 
 }
 
