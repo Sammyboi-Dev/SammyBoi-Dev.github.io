@@ -47,7 +47,7 @@ img {
 .pictures {
   display: inline-block;
   vertical-align: top;
-  width: 50%
+  width: 48%
 }
 .all-pics {
   display: block;
@@ -96,7 +96,4 @@ text-align: center;
 
 .border-tab:hover{
   cursor: pointer;
-}
-.pictures img {
-  width: 50%;
 }
