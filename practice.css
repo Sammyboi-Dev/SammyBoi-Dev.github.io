@@ -3,6 +3,9 @@
   color: black;
   font-family: Montserrat;
   font-weight: bold;
+  display: block;
+  padding-top: 50px;
+
 }
 .logo {
   width: 20vw;
@@ -45,6 +48,8 @@
   background-repeat: no-repeat;
   width: 100vw;
   background-size: 100vw;
+  display: block;
+  text-align: center;
 }
 
 .exterior-3 {
