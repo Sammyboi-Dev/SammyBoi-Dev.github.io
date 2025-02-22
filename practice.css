@@ -34,8 +34,7 @@ body {
 }
 .pictures {
   display: inline-block;
-  width: 25vw;
-  height: 12vw;
+  width: 2vw;
 }
 .border {
   display: block;
