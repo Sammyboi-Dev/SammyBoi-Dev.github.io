@@ -39,7 +39,7 @@ body {
 }
 
 img {
-  width: 35vw;
+  width: 40vw;
 }
 .pictures {
   display: inline-block;
@@ -56,7 +56,7 @@ img {
 .container-top {
   background-image: url(House-pictures/Exterior-House-1.jpg);
   background-repeat: no-repeat;
-  background-size: 250vw;
+  background-size: 175vw;
 }
 
 .exterior-3 {
