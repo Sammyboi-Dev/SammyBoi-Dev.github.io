@@ -41,13 +41,11 @@ body {
   border-color: black;
 }
 
-img {
-  width: 48vw;
-}
 .pictures {
   display: inline-block;
   vertical-align: top;
-  width: 48%
+  width: 50%;
+  height: 50%;
 }
 .all-pics {
   display: block;
@@ -65,7 +63,6 @@ img {
 
 .exterior-3 {
   width: 96vw;
-  display: block;
   margin-left: 0;
   margin-right: 0;
   text-align: center;
