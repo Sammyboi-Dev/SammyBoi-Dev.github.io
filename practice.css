@@ -41,17 +41,13 @@ body {
   border-color: black;
 }
 
-.pictures {
-  display: inline-block;
-  width: 5vw;
-}
-
 .all-pics {
   display: block;
   text-align: center;
   background-color: rgb(142, 171, 204);
   border-style: solid;
   border-top: none;
+  width: 100vw;
 }
 
 .container-top {
