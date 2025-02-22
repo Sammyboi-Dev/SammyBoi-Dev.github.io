@@ -39,7 +39,7 @@ body {
 }
 
 img {
-  width: 15vw;
+  width: 75vw;
 }
 .pictures {
   display: inline-block;
@@ -56,21 +56,21 @@ img {
 .container-top {
   background-image: url(House-pictures/Exterior-House-1.jpg);
   background-repeat: no-repeat;
-  background-size: 10vw;
+  background-size: 500vw;
 }
 
 .exterior-3 {
-  width: 20vw;
+  width: 200vw;
   display: block;
 }
 
 .mission-title {
-font-size: 10vw;
+font-size: 5vw;
 font-weight: bold;
 }
 
 .mission-paragraph {
-  font-size: 5vw;
+  font-size: 2vw;
   text-align: center;
 }
 
