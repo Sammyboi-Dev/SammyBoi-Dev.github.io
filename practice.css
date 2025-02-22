@@ -69,12 +69,12 @@ img {
 }
 
 .mission-title {
-font-size: 75px;
+font-size: 25vw;
 font-weight: bold;
 }
 
 .mission-paragraph {
-  font-size: 30px;
+  font-size: 15vw;
   text-align: center;
 }
 
