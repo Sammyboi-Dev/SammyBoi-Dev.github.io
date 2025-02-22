@@ -5,12 +5,12 @@ body {
 }
 
 .title {
-  font-size: 10vw;
+  font-size: 5vw;
   color: black;
   font-family: Montserrat;
 }
 .logo {
-  width: 5vw;
+  width: 15vw;
   display: inline-block;
 }
 
