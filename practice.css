@@ -34,16 +34,17 @@
 
 .lower-section {
   text-align: center;
-  background-color: rgb(117, 102, 82);
   width: 100vw;
-
+  background-color:rgb(54, 50, 44);
 }
 
 .container-top {
-  background-image: url(House-pictures/Exterior-House-1.jpg);
+  background: url(House-pictures/Exterior-House-1.jpg);
+  background-color:rgb(54, 50, 44);
+  background-blend-mode: luminosity;
   background-repeat: no-repeat;
-  background-size: 100vw;
   width: 100vw;
+  background-size: 100vw;
 }
 
 .exterior-3 {
@@ -71,7 +72,7 @@ border-radius: 50px;
   margin-left: 10px;
   margin-right: 10px;
   padding-top: 30px;
-  padding-bottom:30px;
+  padding-bottom: 30px;
   
 }
 
@@ -79,7 +80,12 @@ border-radius: 50px;
   display: block;
   padding-left: 5px;
   padding-right: 5px;
-  
+  background: url(House-pictures/Interior-House-5.jpg);
+  background-color:rgb(54, 50, 44);
+  background-blend-mode: luminosity;
+  background-size: 120vw;
+  background-repeat: no-repeat;
+
 }
 
 .border-tab:hover{
@@ -129,4 +135,6 @@ html {
 body {
   margin-left: 0;
   margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
