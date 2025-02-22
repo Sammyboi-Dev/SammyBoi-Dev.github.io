@@ -66,11 +66,13 @@ img {
   display: block;
   margin-left: 0;
   margin-right: 0;
+  text-align: center;
 }
 
 .mission-title {
 font-size: 5vw;
 font-weight: bold;
+text-align: center;
 }
 
 .mission-paragraph {
