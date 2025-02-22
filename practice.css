@@ -47,6 +47,7 @@ img {
 .pictures {
   display: inline-block;
   vertical-align: top;
+  width: 50%
 }
 .all-pics {
   display: block;
