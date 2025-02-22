@@ -5,12 +5,12 @@ body {
 }
 
 .title {
-  font-size: 50px;
+  font-size: 50%;
   color: black;
   font-family: Montserrat;
 }
 .logo {
-  width: 200px;
+  width: 100%;
   display: inline-block;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 img {
-  width: 650px;
+  width: 100%;
 }
 .pictures {
   display: inline-block;
