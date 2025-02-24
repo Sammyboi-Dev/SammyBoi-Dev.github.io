@@ -32,21 +32,19 @@
   background-color: rgb(185, 185, 185);
   border-color: black;
   border-style: solid;
-  border-bottom: 0;
 }
 
 .lower-section {
   text-align: center;
   width: 100vw;
-  background-color:rgb(54, 50, 44);
+  animation: fadeIn 3s;
 }
 
 .container-top {
   background: url(House-pictures/Exterior-House-1.jpg);
-  background-color:rgb(54, 50, 44);
+  background-color:white;
   background-blend-mode: luminosity;
   background-repeat: no-repeat;
-  width: 100vw;
   background-size: 100vw;
   display: block;
   text-align: center;
@@ -55,9 +53,10 @@
 .exterior-3 {
   margin-left: 0;
   margin-right: 0;
-  width: 100%;
-  border-bottom: solid;
-  border-top: solid;
+  width: 75%;
+  border-style: solid;
+  z-index: 1;
+  position: relative;
 }
 
 .mission-title, .pricing-title {
@@ -66,7 +65,7 @@ font-size: 5vw;
 font-weight: bold;
 border-style: solid;
 padding: 5px 50px;
-background-color: rgb(185, 157, 114);
+background-color: rgba(185, 157, 114, .7);
 border-radius: 50px;
 }
 
@@ -83,13 +82,7 @@ border-radius: 50px;
 
 .mission, .schedule-pricing{
   display: block;
-  padding-left: 5px;
-  padding-right: 5px;
-  background: url(House-pictures/Interior-House-5.jpg);
-  background-color:rgb(54, 50, 44);
-  background-blend-mode: luminosity;
-  background-size: 120vw;
-  background-repeat: no-repeat;
+  width: 100vw;
 
 }
 
@@ -97,10 +90,6 @@ border-radius: 50px;
   cursor: pointer;
 }
 
-.interior-1,.exterior-2 {
-  width: 50%;
-  border-bottom: solid;
-}
 
 html {
   scroll-behavior: smooth;
@@ -108,30 +97,13 @@ html {
 
 .package-base, .mission-paragraph {
   border-style: solid;
-  background-color: rgb(185, 157, 114);
+  background-color: rgba(185, 156, 114, 0.726);
   width: 75%;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
-.twin-pictures, .picture-collage {
-  border-top: solid;
-}
 
-.picture-collage {
-  width: 100%;
-  display: inline-block;
-  background-color: black;
-}
-
-.interior-4, .interior-3 {
-  width: 50%;
-}
-
-.interior-5,.interior-6,.interior-2,.exterior-1 {
-  float:left;
-  width: 25%;
-}
 
 .pricing-paragraph {
   border-bottom: none;
@@ -143,3 +115,52 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.floating-background {
+  background: linear-gradient(rgba(255,255,255, .3), rgba(255,255,255.3)), url("House-pictures/Exterior-House-3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.arrow-right {
+  width: 10vw;
+  opacity: .7;
+  z-index: 2;
+  position: absolute;
+  background-color: white;
+  left: 60vw; 
+  right: 0; 
+  margin-inline: auto; 
+  transform: translatey(20vw)
+}
+
+.arrow-left {
+  width: 10vw;
+  opacity: .7;
+  z-index: 2;
+  position: absolute;
+  left: 0; 
+  right: 60vw; 
+  margin-inline: auto; 
+  background-color: white;
+  transform: translatey(20vw)
+}
+
+.image-box {
+  width: 100%;
+  height: 100%;
+}
+
+.arrow-left:hover {
+  opacity: .9;
+}
+
+.arrow-right:hover {
+  opacity: .9;
+}
+
+.gallery-pic {
+  border-style: solid;
+}
+
