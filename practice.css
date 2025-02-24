@@ -5,6 +5,7 @@
   font-weight: bold;
   display: block;
   padding-top: 50px;
+  width: 50vw;
 
 }
 .logo {
@@ -12,9 +13,17 @@
   display: inline-block;
   mix-blend-mode: multiply;
 }
-
+.flash {
+  position: absolute;
+  translate: -13vw;
+  width: 10vw;
+  transform: translateY(8.5vw);
+  clip-path: circle(25%);
+  mix-blend-mode: hard-light;
+}
 .main-logo {
   text-align: center;
+  display: inline-block;
 }
 .border-tab {
   display: inline-block;
@@ -49,23 +58,15 @@
   text-align: center;
 }
 
-.exterior-3 {
-  margin-left: 0;
-  margin-right: 0;
-  width: 75%;
-  border-style: solid;
-  z-index: 1;
-  position: relative;
-}
-
 .mission-title, .pricing-title {
 display: inline-block;
-font-size: 5vw;
+font-size: 7vw;
 font-weight: bold;
 border-style: solid;
 padding: 5px 50px;
 background-color: rgba(185, 157, 114, .7);
 border-radius: 50px;
+width: 50vw;
 }
 
 .mission-paragraph, .pricing-paragraph, .pricing {
@@ -97,7 +98,7 @@ html {
 .package-base, .mission-paragraph {
   border-style: solid;
   background-color: rgba(185, 156, 114, 0.726);
-  width: 75%;
+  width: 50%;
   display: inline-block;
   margin-bottom: 50px;
 }
@@ -162,4 +163,6 @@ body {
 .gallery-pic {
   border-style: solid;
 }
+
+
 
